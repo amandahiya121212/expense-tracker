@@ -1,0 +1,51 @@
+body {
+    font-family: 'Courier New', Courier, monospace;  
+    background-color: rgb(172, 104, 104);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black;
+}
+
+input[type="text"], select, input[type=number], input[type=submit] {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border-radius: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4caf5d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #45a049;
+    color: white;
+}
